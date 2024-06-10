@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "TransformaScript";
+    src: url(fonts/TransformaScript/TransformaVariable-Script.ttf);
+}
+
+html {
+    background-image: url(background.jpg);
+}
+
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #ffa0ef;
+}
+
+p.head {
+    text-align: center;
+    font-family: "TransformaScript";
+    font-size: 36px;
+}
+
+.main-content {
+    text-align: center;
+    font-family: "TransformaScript";
+    font-size: 20px;
+}
+
+
+
+body {
+    margin: 0;
+    height: 100%;
+}
+
+header.main {
+    max-width: 100%;
+    width: 3000px;
+    height: 100%;
+}
+
+.contact {
+    text-align: center;
+    font-family: "TransformaScript";
+    font-size: 14px;
+}
+
+footer {
+    position: absolute;
+    padding-top: 30px;
+    max-width: 3000px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: #ffa0ef;
+    
+}
